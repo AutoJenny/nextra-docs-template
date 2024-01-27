@@ -9,3 +9,5 @@ This system enables **templates** to be combined with **data** from sql, using *
 
 
 New data placehlders: "http://34.244.159.150:8000/admin/",
+
+Test template: "http://34.244.159.150:8000/modular-scripts/test/"
