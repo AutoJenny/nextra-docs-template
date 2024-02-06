@@ -1,4 +1,4 @@
-# Directory sub-division (expansion) process
+# Automated Directory sub-division (expansion)
 ## 1. Identify directory to be expanded
 
 In django_cbos/backend_directory DB parse 'expand' column for '1'

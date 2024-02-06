@@ -7,17 +7,17 @@ Welcome to the Modular Scripting System! This guide is designed to help you unde
 Our system has five main interfaces:
 
 1. **Datasets Interface**:
-   - URL: [Datasets](http://34.244.159.150:8000/api/templates/datasets/)
+   - URL: [Datasets](http://34.244.159.150:8000/api/datasets/)
    - Purpose: Manage and view datasets. Datasets are collections of data that your templates will use.
    - How to Use: Add new datasets or edit existing ones. Each dataset should correspond to the type of data your template will process.
 
 2. **Templates Interface**:
-   - URL: [Templates](http://34.244.159.150:8000/api/templates/templates/)
+   - URL: [Templates](http://34.244.159.150:8000/api/templates/)
    - Purpose: Create and modify templates. Templates are the blueprints for your output. They define the structure and placeholders for data.
    - How to Use: Create a new template or edit an existing one. Insert placeholders where you want dataset information to appear.
 
 3. **Scripts Interface**:
-   - URL: [Scripts](http://34.244.159.150:8000/api/templates/scripts/)
+   - URL: [Scripts](http://34.244.159.150:8000/api/scripts/)
    - Purpose: View the list of scripts. Scripts are processed outputs combining your templates with datasets.
    - How to Use: Review the scripts generated from your templates and datasets.
 
@@ -36,11 +36,11 @@ Our system has five main interfaces:
 To create an output template and see the results, follow these steps:
 
 1. **Create a DataSet**:
-   - Go to the [Datasets Interface](http://34.244.159.150:8000/api/templates/datasets/).
+   - Go to the [Datasets Interface](http://34.244.159.150:8000/api/datasets/).
    - Add a new dataset with the data you want to include in your template.
 
 2. **Design a Template**:
-   - Navigate to the [Templates Interface](http://34.244.159.150:8000/api/templates/templates/).
+   - Navigate to the [Templates Interface](http://34.244.159.150:8000/api/templates/).
    - Create a new template. Insert placeholders in the format `<placeholder_name>` where you want data from your dataset to appear.
 
 3. **Test Your Template**:
